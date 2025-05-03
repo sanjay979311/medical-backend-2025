@@ -157,7 +157,7 @@ import logoRoute from './routes/logoRoute.js';
 import dashboardRoute from './routes/dashboardRoute.js';
 import timeSlotRoutes from './routes/timeSlotRoute.js';
 import doctorAvailabilityRoutes from './routes/doctorAvailabilityRoutes.js';
-import paymentRoutes from './routes/paymentRoutes.js';
+// import paymentRoutes from './routes/paymentRoutes.js';
 
 // Route setup
 app.use('/api/send-mail', mailRoutes);
@@ -171,7 +171,7 @@ app.use('/api/logo', logoRoute);
 app.use('/api/dashboard', dashboardRoute);
 app.use('/api/time-slots', timeSlotRoutes);
 app.use('/api/availability', doctorAvailabilityRoutes);
-app.use('/api/payment', paymentRoutes);
+// app.use('/api/payment', paymentRoutes);
 
 // Start server
 const port = process.env.PORT || 8000;
